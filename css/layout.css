@@ -65,7 +65,7 @@ body.royal_loader {
 }
 #royal_preloader.number .percentage {
     color: rgb(255, 132, 8);
-    font-family: Impact, Arial;
+	font-family: 'Pelagy';
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: -90px 0px 0px -90px;
@@ -252,7 +252,12 @@ Main components
   .cd-header {
     height: 80px;
   background: rgba(0, 0, 0, 0.86);
-    box-shadow: none;
+    box-shadow: none;}
+
+#royal_preloader.number .percentage {
+	font-family: 'Pelagy';
+   
+    font-size: 30px;
   }
 }
 @media only screen and (min-width: 1170px) {
